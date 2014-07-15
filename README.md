@@ -4,11 +4,13 @@ RDMSV
 Drug Markov Singular Values of Transition Probabilities in R
 
 Cristian R Munteanu, BiGCaT, Maastricht University (UM), Netherlands
+
 Haralambos Sarimveis, National Technical University of Athens (NTUA), Greece 
 
 Contact: muntisa [at] gmail [dot] com
 
 This tool is using the same flow as the RDMMP or MInD-Prot but it introduces a new class of descriptors such as the Markov Singular Values for the transition probabilities of the molecular graph (the minimum and the maximum values).
+
 The inputs are SMILES formulas and and 4 atom physical - chemical properties such as Mulliken electronegativity (EM), Kang-Jhon polarizability (PKJ), van der Waals area (vdWA) and atom contribution to partition coefficient (AC2P). There are 6 types of atom types: All (all atoms), Csat (saturated C), Cinst (insaturated C), Hal (halogen), Het (heteroatoms) and HetNoX (heteroatoms but not halogens. The list of atom properties could be extended.
 
 RDMSV can calculate:
