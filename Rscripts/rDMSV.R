@@ -201,7 +201,7 @@ kPower <- 5                         # power for Markov chains (0 - kPower)
 SFile  <- "SMILES.txt"              # SMILES file
 WFile  <- "AtomProperties.txt"      # weigths file:  AtomE EM PKJ vdWArea AC2P (tab-separated)
 # flag to print descriptors for all Ks (1= print 336 values, 0 = 48 values, only the averaged by all ks for each atom property and atom type) 
-fAllKs <- 1
+fAllKs <- 0
 
 cat("\n============================================================\n")
 cat("RDMSV = Drug Markov Singular Values of Transition Probabilities in R\n")
